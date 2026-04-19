@@ -19,97 +19,16 @@ customer-analytics-dashboard/
     ├── churn.png
     └── clv.png
 
-##🚀 How to Run (Localhost Setup)
-Step 1 — Open PostgreSQL (pgAdmin)
+## 🚀 How to Run (PostgreSQL + Metabase)
 
+### Step 1 — Open PostgreSQL (pgAdmin)
 Open pgAdmin 4 and connect to your local server.
 
-Step 2 — Create a Database
+---
+
+### Step 2 — Create a Database
 
 Open Query Tool and run:
 
+```sql
 CREATE DATABASE customer_analytics;
-Step 3 — Connect to Database
-
-Select the database customer_analytics and open the Query Tool.
-
-Step 4 — Run Schema (Create Tables)
-
-Run the following:
-
--- Run schema.sql
-
-This will create:
-
-customers table
-transactions table
-Step 5 — Insert Data
-
-Run the following:
-
--- Run insert_data.sql
-
-This will generate:
-
-1000+ customers
-3000+ transactions
-Step 6 — Create Analytical Views
-
-Run the following:
-
--- Run views.sql
-
-This will create:
-
-Sales trends
-Customer segmentation
-Churn prediction
-CLV analysis
-Step 7 — Start Metabase (Localhost)
-
-Run the following command:
-
-java -jar metabase.jar
-
-Then open your browser:
-
-http://localhost:3000
-
-Step 8 — Connect PostgreSQL to Metabase
-
-Enter the following details:
-
-Host: localhost
-Port: 5432
-Database: customer_analytics
-Username: postgres
-Password: your_password
-
-Step 9 — Create Dashboard
-
-Use these views:
-
-vw_sales_trends → Line Chart
-vw_customer_segmentation → Pie/Bar Chart
-vw_churn_status → Table/Pie
-vw_customer_lifetime_value → Bar Chart
-Step 10 — View Dashboard
-
-Open in browser:
-
-http://localhost:3000/dashboard
-
-📊 Dashboard Preview
-🔹 Full Dashboard
-
-🔹 Sales Trend
-
-🔹 Customer Segmentation
-
-🔹 Churn Analysis
-
-🔹 CLV Analysis
-
-🎯 Conclusion
-
-This project demonstrates how SQL-based analytics can provide meaningful business insights such as customer behavior, churn risk, and long-term value.
