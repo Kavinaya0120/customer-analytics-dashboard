@@ -18,7 +18,7 @@ customer-analytics-dashboard/
     ├── segmentation.png
     ├── churn.png
     └── clv.png
-
+---
 ## 🚀 How to Run (Localhost Setup)
 
 ### Step 1 — Open PostgreSQL (pgAdmin)
