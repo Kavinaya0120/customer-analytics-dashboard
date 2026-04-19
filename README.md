@@ -107,3 +107,34 @@ vw_customer_lifetime_value → Bar Chart
 Open in browser:
 http://localhost:3000/dashboard
 ```
+
+---
+
+## ✨ Features Summary
+
+📌 Data Processing
+Large dataset (1000+ customers, 3000+ transactions)
+Automated data generation using SQL
+
+📌 Customer Analytics
+Customer Segmentation (High, Medium, Low Value)
+Churn Prediction (Active vs Churn Risk)
+Customer Lifetime Value (CLV) calculation
+
+📌 Business Insights
+Monthly sales trend analysis
+Revenue insights
+Customer behavior tracking
+
+---
+
+## 🛠️ Tech Stack
+Database: PostgreSQL
+Visualization: Metabase
+Language: SQL
+
+---
+
+## 🎯 Conclusion
+
+This project demonstrates how SQL-based analytics can be used to extract meaningful business insights such as customer behavior, churn risk, and long-term value, enabling data-driven decision-making.
