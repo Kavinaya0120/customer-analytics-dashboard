@@ -24,14 +24,14 @@ customer-analytics-dashboard/
 
 ## 🚀 How to Run (PostgreSQL + Metabase)
 
-Step 1 — Open PostgreSQL (pgAdmin)
-
+## Step 1 — Open PostgreSQL (pgAdmin)
+```plaintext
 Open pgAdmin 4 and connect to your local server.
-
-Step 2 — Create a Database
-
+```
+## Step 2 — Create a Database
+```plaintext
 Open Query Tool and run:
-
+```
 CREATE DATABASE customer_analytics;
 Step 3 — Connect to Database
 Select database → customer_analytics
