@@ -3,10 +3,10 @@
 A data analytics project that analyzes customer behavior, predicts churn, and calculates Customer Lifetime Value (CLV) using PostgreSQL, with interactive dashboards built in Metabase.
 
 ---
-
 ## 📁 Project Structure
-customer-analytics-dashboard/
 
+```text
+customer-analytics-dashboard/
 ├── schema.sql
 ├── insert_data.sql
 ├── views.sql
@@ -16,8 +16,7 @@ customer-analytics-dashboard/
     ├── sales.png
     ├── segmentation.png
     ├── churn.png
-    └── clv.png
-
+    ├── clv.png
 ---
 
 ## 🚀 How to Run (PostgreSQL + Metabase)
