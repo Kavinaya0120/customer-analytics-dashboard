@@ -21,7 +21,10 @@ customer-analytics-dashboard/
 
 ## 🚀 How to Run (PostgreSQL + Metabase)
 
+---
+
 ### Step 1 — Open PostgreSQL (pgAdmin)
+
 Open pgAdmin 4 and connect to your local server.
 
 ---
