@@ -5,12 +5,11 @@ A data analytics project that analyzes customer behavior, predicts churn, and ca
 ---
 
 ## 📁 Project Structure
-
-```plaintext
 customer-analytics-dashboard/
-├── schema.sql                ← Database structure (tables)
-├── insert_data.sql           ← Data generation (1000+ records)
-├── views.sql                 ← Analytical queries (Segmentation, Churn, CLV)
+
+├── schema.sql
+├── insert_data.sql
+├── views.sql
 ├── README.md
 └── screenshots/
     ├── dashboard.png
@@ -19,9 +18,9 @@ customer-analytics-dashboard/
     ├── churn.png
     └── clv.png
 
-## 🚀 How to Run (PostgreSQL + Metabase)
-
 ---
+
+## 🚀 How to Run (PostgreSQL + Metabase)
 
 ### Step 1 — Open PostgreSQL (pgAdmin)
 
