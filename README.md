@@ -75,14 +75,14 @@ Churn prediction
 CLV analysis
 ```
 ## Step 7 — Start Metabase (Localhost)
-```plaintext
+
 Run the following command:
 
 java -jar metabase.jar
 
 Open your browser:
 http://localhost:3000
-```
+
 ## Step 8 — Connect PostgreSQL to Metabase
 ```plaintext
 Enter the following details:
@@ -103,10 +103,10 @@ vw_churn_status → Table/Pie
 vw_customer_lifetime_value → Bar Chart
 ```
 ## Step 10 — View Dashboard
-```plaintext
+
 Open in browser:
 http://localhost:3000/dashboard
-```
+
 
 ---
 
